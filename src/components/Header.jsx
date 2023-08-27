@@ -33,9 +33,9 @@ const Header = () => {
             value={srch}
             onChange={handlesrch}
           />
-          <button>
+          {/* <button>
             <FiSearch />
-          </button>
+          </button> */}
         </div>
         {/* <div>
         <button><FcLike/></button>

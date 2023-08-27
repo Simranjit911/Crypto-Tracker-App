@@ -26,8 +26,8 @@ const Home = () => {
       ) : (
         <>
           <Header />
-        <div className="flex flex-col justify-center mx-auto items-center w-[100%] ">
-          <div className="lg:w-[70vw] mx-auto md:grid-cols-2  grid grid-cols-1 lg:grid-cols-3 gap-3 my-10 justify-center items-center text-center min-h-full">
+        <div className="flex flex-col justify-center mx-auto items-center w-[100%] min-h-screen">
+          <div className="lg:w-[70vw] mx-auto md:grid-cols-2  grid grid-cols-1 lg:grid-cols-3 gap-3 my-10 justify-center items-center text-center ">
             {console.log(coins)}
             {coins.filter((item)=>{
                 return srch.toLowerCase()===""?item :item.name.toLowerCase().includes(srch)
